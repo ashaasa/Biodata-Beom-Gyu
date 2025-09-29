@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+.profile-card {
+  background: #fff;
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+.header h1 {
+  margin: 15px 0 5px;
+  color: #333;
+  font-size: 26px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #667eea;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Info Section */
+.info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.info h2 {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info li {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.info span {
+  font-weight: 600;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+}
